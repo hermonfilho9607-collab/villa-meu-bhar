@@ -1,0 +1,21 @@
+# Editor / tooling
+.claude/
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Env / secrets — never commit these
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Build artifacts (none expected for this static site, kept as a safety net)
+node_modules/
+dist/
+build/
